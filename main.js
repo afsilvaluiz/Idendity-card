@@ -1,8 +1,8 @@
 const linksSocialMidia = {
   github: 'hauraStudio',
   youtube: 'channel/UCSLcklOm9xixz6osxD0NNxQ',
-  facebook: 'betofsilv',
-  instagram: 'betof.silva',
+  facebook: 'studio.haura',
+  instagram: 'studio.haura',
   twitter: 'developerLuiz'
 }
 
@@ -18,7 +18,7 @@ changeSocialMidiaLinks()
 
 function getGitHubProfileInfos() {
   const url = `https://api.github.com/users/${linksSocialMidia.github}`
-
+  studio.haura
   fetch(url)
   .then(response => response.json())  
   .then(data => {
